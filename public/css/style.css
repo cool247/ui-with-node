@@ -1,0 +1,92 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.my-nav {
+	border: solid 1px dodgerblue;
+	height: 40px;
+}
+.my-banner {
+	border: solid 2px rgb(255, 30, 30);
+	height: 70px;
+}
+.my-row {
+	border: solid 1px dodgerblue;
+	height: 610px;
+	text-align: center;
+}
+.my-col {
+	border: dotted 1px rgba(53, 187, 53, 0.603);
+	text-align: right;
+}
+.side-bar {
+	border: dotted 1px rgba(182, 53, 187, 0.603);
+}
+
+.main-section {
+	background-image: url("/img/bg.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: left;
+	height: 610px;
+}
+.map {
+	border: dotted 1px rgba(53, 187, 53, 0.603);
+	height: 225px;
+}
+.history {
+	border: dotted 1px rgba(53, 187, 53, 0.603);
+	height: 150px;
+}
+.location {
+	padding: 1.5rem 1rem;
+}
+
+.location-text {
+	display: inline-block;
+	margin-top: 1rem;
+	padding: 0 1.2rem;
+	font-size: 1.2rem;
+	text-transform: capitalize;
+}
+.location-quotes {
+	padding: 0 1.2rem;
+	font-size: 2rem;
+	width: 300px;
+}
+.data {
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.temperature {
+	font-size: 7rem;
+	line-height: 6rem;
+}
+.thermometer {
+	font-size: 3.8rem;
+}
+.degree {
+	position: absolute;
+	top: -35%;
+	right: -15%;
+	font-size: 4rem;
+}
+
+.date {
+	font-size: 1.3rem;
+}
+@media only screen and (max-width: 991px) {
+	.my-row {
+		height: 1210px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.data {
+		left: 50%;
+		top: 85%;
+		transform: translate(-50%, -85%);
+	}
+}
